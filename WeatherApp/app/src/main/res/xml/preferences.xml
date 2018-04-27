@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference     android:title="Temperature Unit"
+        android:summary="Choose between Celcius and Fahrenheit"
+        android:key="TempPreference"
+        android:defaultValue="1"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <com.example.Lata.weatherapp.CustomEditTextPreference
+        android:title="Current City"
+        android:key="CityPreference"
+        android:summary="Change Current City"/>
+
+</PreferenceScreen>
